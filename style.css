@@ -1,0 +1,105 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+body{
+ background-image:url('amen.jpg'); 
+background-size: absolute;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+textarea{
+	width: 95%;
+	margin: 10px auto;
+	display: block;
+	height: 280px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: none;
+        border-radius:10px;
+        font-weight: bold;
+        font-size: 20px;
+        opacity:60%;
+        color:#00ff1d;
+        background: #000;
+}
+textarea:focus{
+	outline: 4px solid crimson;
+}
+.binaryToDecimal, .unconvert{
+	display: none;
+}
+.decimalToBinaryClose{
+	display: none;
+}
+.binaryToDecimalOpen{
+	display: block;
+}
+.inline-block{
+	display: inline-block;
+}
+.convert, .unconvert{
+	padding: 10px;
+	background: black;
+	color: #fff;
+	border: 1px solid crimson;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-radius:10px;
+	float:right;
+        opacity:80%;
+}  
+.facebook{
+	padding:10px;
+	background:#000;
+	color:#fff;
+	border:1px solid crimson;
+	outline:none;
+	border-radius:10px;
+	cursor:pointer;
+	transition:0.4s;
+	-o-transition:0.4s;
+	-moz-transition:0.4s;
+	-webkit-transition:0.4s;
+        opacity:80%;
+}
+.facebook:hover{
+	background:blue;
+}
+.sub{
+	padding:10px;
+	background:#000;
+	color:#fff;
+	border:1px solid crimson;
+	outline:none;
+	border-radius:10px;
+	cursor:pointer;
+	transition:0.4s;
+	-o-transition:0.4s;
+	-moz-transition:0.4s;
+	-webkit-transition:0.4s;
+        opacity:80%;
+         
+}
+.sub:hover{
+	background:blue;
+}
+.container{
+	width:100%;
+	max-width:1000px;
+	margin:10px auto;
+	padding:2px;
+        
+	box-sizing:border-box;
+}
+.tools{
+        
+	display:block;
+}
